@@ -1,0 +1,24 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "ParityDiff synthetic monitoring API",
+    "version": "3.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://monitoring-fixture.invalid"
+    }
+  ],
+  "paths": {
+    "/v1/health": {
+      "get": {
+        "operationId": "health",
+        "responses": {
+          "200": {
+            "description": "Healthy"
+          }
+        }
+      }
+    }
+  }
+}

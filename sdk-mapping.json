@@ -1,0 +1,17 @@
+[
+  {
+    "language": "typescript",
+    "packageName": "cohere-ai",
+    "moduleSpecifiers": [
+      "cohere-ai"
+    ],
+    "operations": [
+      {
+        "symbol": "chat",
+        "method": "POST",
+        "path": "/v1/chat",
+        "affectedRange": "<9.0.0"
+      }
+    ]
+  }
+]
