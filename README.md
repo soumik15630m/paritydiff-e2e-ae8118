@@ -12,3 +12,4 @@ explicitly associates `client.chat` with the synthetic POST /v1/chat.
 
 Specification revisions are retained under spec/. Only spec/current.json
 is the actively monitored specification.
+Pause and resume smoke test: documentation-only push.
